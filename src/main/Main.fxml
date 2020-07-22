@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="685.0" style="-fx-background-color: #415a77;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="577.0" prefWidth="182.0" style="-fx-background-color: #778da9;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="503.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label prefHeight="32.0" prefWidth="182.0" text="Steps:" textFill="#fcfcfc">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="182.0" text="1. Choose URL/IP" textFill="#fcfcfc">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="182.0" text="2. Lock onto target" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="182.0" text="3. Select settings" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="182.0" text="4. Fire at target" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="182.0" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="182.0" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="182.0" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="182.0" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="182.0" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="182.0" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="182.0" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="182.0" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="182.0" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="182.0" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="182.0" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label prefHeight="32.0" prefWidth="182.0" textFill="#fcfcfc">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Button fx:id="exitButton" mnemonicParsing="false" onAction="#exitClicked" prefHeight="25.0" prefWidth="189.0" style="-fx-background-radius: 20;" text="Exit Peridot">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children></VBox>
+      <Label alignment="CENTER" layoutX="182.0" prefHeight="17.0" prefWidth="503.0" text="Welcome to Peridot" textFill="#fcfcfc">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Line endX="402.0" fill="WHITE" layoutX="283.0" layoutY="58.0" startX="-100.0" stroke="WHITE" />
+      <Label layoutX="182.0" layoutY="59.0" prefHeight="32.0" prefWidth="182.0" text="Select a target:" textFill="#fcfcfc">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="urlBox" layoutX="183.0" layoutY="91.0" onKeyTyped="#urlChanged" style="-fx-background-radius: 20;" />
+      <TextField fx:id="ipBox" layoutX="536.0" layoutY="91.0" onKeyTyped="#ipChanged" style="-fx-background-radius: 20;" />
+      <Label alignment="CENTER" layoutX="182.0" layoutY="116.0" prefHeight="32.0" prefWidth="149.0" text="URL" textFill="#fcfcfc">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="536.0" layoutY="116.0" prefHeight="32.0" prefWidth="149.0" text="IP" textFill="#fcfcfc">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="359.0" layoutY="88.0" prefHeight="32.0" prefWidth="149.0" text="&lt;- OR -&gt;" textFill="#fcfcfc">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Line endX="402.0" fill="WHITE" layoutX="283.0" layoutY="201.0" startX="-100.0" stroke="WHITE" />
+      <Button fx:id="lockButton" layoutX="310.0" layoutY="148.0" mnemonicParsing="false" onAction="#lockClicked" prefHeight="32.0" prefWidth="247.0" style="-fx-background-radius: 20; -fx-background-color: #0b2545;" text="LOCK ONTO TARGET" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Line endX="402.0" fill="WHITE" layoutX="283.0" layoutY="420.0" startX="-100.0" stroke="WHITE" />
+      <Label fx:id="lockedOnto" layoutX="182.0" layoutY="421.0" prefHeight="32.0" prefWidth="503.0" textFill="#fcfcfc">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="threadsActive" layoutX="183.0" layoutY="453.0" prefHeight="32.0" prefWidth="503.0" textFill="#fcfcfc">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="timeoutBox" layoutX="182.0" layoutY="240.0" onKeyTyped="#timeoutChanged" prefHeight="25.0" prefWidth="93.0" promptText="1000 (default)" style="-fx-background-radius: 20;" />
+      <Label layoutX="182.0" layoutY="202.0" prefHeight="32.0" prefWidth="93.0" text="Timeout (ms):" textFill="#fcfcfc">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="202.0" prefHeight="32.0" prefWidth="389.0" text="TCP/UDP message:" textFill="#fcfcfc">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="messageBox" layoutX="296.0" layoutY="240.0" onKeyTyped="#messageBoxChanged" prefHeight="25.0" prefWidth="389.0" style="-fx-background-radius: 20;" text="You just got attacked by Peridot!" />
+      <TextField fx:id="portBox" layoutX="182.0" layoutY="305.0" onKeyTyped="#portChanged" prefHeight="25.0" prefWidth="93.0" promptText="80" style="-fx-background-radius: 20;" />
+      <Label layoutX="183.0" layoutY="273.0" prefHeight="32.0" prefWidth="93.0" text="Port:" textFill="#fcfcfc">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="273.0" prefHeight="32.0" prefWidth="93.0" text="# of Threads:" textFill="#fcfcfc">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="threadBox" layoutX="296.0" layoutY="305.0" onKeyTyped="#threadsChanged" prefHeight="25.0" prefWidth="93.0" promptText="100 (default)" style="-fx-background-radius: 20;" />
+      <Label layoutX="416.0" layoutY="273.0" prefHeight="32.0" prefWidth="93.0" text="Method:" textFill="#fcfcfc">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="methodBox" layoutX="416.0" layoutY="305.0" onAction="#methodBoxActivated" prefHeight="25.0" prefWidth="149.0" promptText="Choose a method:" />
+      <Button fx:id="fireButton" layoutX="311.0" layoutY="366.0" mnemonicParsing="false" onAction="#fireAction" prefHeight="32.0" prefWidth="247.0" style="-fx-background-radius: 20; -fx-background-color: #DD5449;" text="FIRE AT TARGET" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="stopFiring" layoutX="182.0" layoutY="548.0" mnemonicParsing="false" onAction="#stopFiringClicked" prefHeight="30.0" prefWidth="503.0" style="-fx-background-radius: 20; -fx-background-color: #DD5449;" text="STOP FIRING " textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="openLogButton" layoutX="310.0" layoutY="492.0" mnemonicParsing="false" onAction="#openLogger" prefHeight="32.0" prefWidth="247.0" style="-fx-background-radius: 20; -fx-background-color: #DD5449;" text="OPEN LOGGER" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
